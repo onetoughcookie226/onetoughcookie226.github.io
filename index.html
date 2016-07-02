@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <title>Title</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-      <h2 class="text-center">OneThoughCookie</h2>
-        <p>Click here <a href="">contact me</a> for more info.</p>
-        <a><img src="one-tough-cookie.jpg" alt="Profile Picture" class= "img-responsive img-circle" style= "width:128px;height:128px;">thid</a>
-        <button class="btn btn-block btn-success">Click Here!</button>
-        <button class="btn btn-block btn-info">Info</button>
+    <div class= "container-fluid">
+        <div class="row">
+            <div class="col-xs-8"><h2 class="text-center text-primary">OneThoughCookie</h2></div>
+            <div class="col-xs-4"><a><img src="one-tough-cookie.jpg" alt="Profile Picture" class= "thick-green-border img-responsive">thid</a></div>
+        </div>
+        <p class="text-center">Click here to <a href="">contact me</a> for more info.</p>
+            <div class="row">
+                <div class="col-xs-4"><button class="btn btn-block btn-success"><i class="fa fa-thumbs-up">Click Here!</i></button></div>
+                <div class="col-xs-4"><button class="btn btn-block btn-info"><i class="fa fa-info-circle">Info</i></button></div>
+                <div class="col-xs-4"><button class="btn btn-block btn-danger"><i class="fa fa-trash">Delete</i></button></div>
+        </div>
+        <p>Things I <span class="text-danger">love</span></p>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+        </ul>
     </div>
 
 </body>
