@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Title</title>
 </head>
 
@@ -15,24 +17,59 @@
             <div class="col-xs-4">&nbsp;<img src="profilePicSqure.jpg" alt="Profile Picture" class= "round-border img-responsive"></div>
         </div>
 
-        <div class="row main-content">&nbsp;
-            <div class="col-xs-12 text-center">
+        <nav class=" row navbar navbar-inverse">
+            <div class="col-xs-12 container-fluid">
+                <div class="navbar-header navbar-right">
+                    <a class="navbar-brand" href="index.html">Home</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#about">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row main-content">
+            <div class="col-xs-12 text-center">&nbsp;
                 <P><span class="">Attention</span>: This site is currently in development.</p>
             </div>
-
-                <div class="row">
-                    <div class="col-xs-4"><button class="btn btn-block btn-success"><i class="fa fa-thumbs-up">&nbsp;Click Here!</i></button></div>
-                    <div class="col-xs-4"><button class="btn btn-block btn-info"><i class="fa fa-info-circle">&nbsp;Info</i></button></div>
-                    <div class="col-xs-4"><button class="btn btn-block btn-danger"><i class="fa fa-trash">&nbsp;Delete</i></button></div>
+        </div>
+            <div class="row primary-content">
+                <div class="col-xs-10" id="about">
+                    <h4>About me:</h4>
+                    <p>I hold a Msc. in Urban and Regional Planning from the University of Amsterdam, and currently working on a PhD proposal.
+                        My research interests centers around ubanism, cultural heritage, and …..
+                        My privious research interested in High-skilled immigrants, return migration and immigration policies. Immigrant women
+                        in diaspora, mental health. Bahareh, worked as a social support worker.
+                        I am passionate about learning and expanding my skills. I am interested in language leaning(currently Dutch) She has (A2) level Dutch. currently learning programing. playing bass.
+                    </p>
+                </div>
             </div>
-            <p>Things I <span class="text-danger">love</span></p>
+
+            <div class="row secondary-content">
+                <div class="col-xs-12">
+                    <h4 id="portfolio">Portfolio</h4>
+                    <p></p>
+                </div>
+            </div>
+
+
+        <div class="col-xs-4"><button class="btn btn-block btn-success"><i class="fa fa-thumbs-up">&nbsp;Click Here!</i></button></div>
+        <div class="col-xs-4"><button class="btn btn-block btn-info"><i class="fa fa-info-circle">&nbsp;Info</i></button></div>
+        <div class="col-xs-4"><button class="btn btn-block btn-danger"><i class="fa fa-trash">&nbsp;Delete</i></button></div>
+
+        <p>Things I <span class="text-danger">love</span></p>
             <ul>
                 <li>HTML5</li>
                 <li>CSS</li>
             </ul>
 
-        </div>
+
         <p>Click here to <a href="">contact me</a> for more info.</p>
+    </div>
+    <div class="main-footer">
+
     </div>
 
 </body>
