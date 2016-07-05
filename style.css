@@ -1,11 +1,26 @@
-.thick-green-border {
-    border-color: beige;
-    border-width: 10px;
-    border-style: solid;
+.round-border {
     border-radius: 50%;
 }
 
-img {
-    height: 125px;
-    width: 125px;
+.main-header {
+    background-color: #696969;
 }
+
+.img-responsive {
+    margin: 0 auto;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.title {
+    color: #F0FFFF;
+
+}
+
+.main-content {
+    background-color: #F0FFFF;
+}
+
+
+
