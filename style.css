@@ -15,12 +15,16 @@
 
 .title {
     color: #F0FFFF;
-
 }
 
 .main-content {
     background-color: #F0FFFF;
 }
 
+body {
+    background: #2d3339
+}
 
-
+p {
+    color: #f4f3ce
+}
