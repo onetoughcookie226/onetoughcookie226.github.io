@@ -17,6 +17,9 @@
     color: #F0FFFF;
 }
 
+#alert {
+    color: #2d3339;
+}
 .main-content {
     background-color: #F0FFFF;
 }
@@ -28,3 +31,6 @@ body {
 p {
     color: #f4f3ce
 }
+ ul{
+     color: #F0FFFF
+ }
