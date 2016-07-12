@@ -3,7 +3,7 @@
 }
 
 .main-header {
-    background-color: #696969;
+    background-color: white;
 }
 
 .img-responsive {
@@ -14,23 +14,24 @@
 }
 
 .title {
-    color: #F0FFFF;
+    color: #696969;
+    padding:29px;
 }
 
 #alert {
-    color: #2d3339;
+    color: #FF6347;
 }
 .main-content {
     background-color: #F0FFFF;
 }
 
 body {
-    background: #2d3339
+    background: #F5F5F5;
 }
 
 p {
-    color: #f4f3ce
+    color: #696969;
 }
  ul{
-     color: #F0FFFF
+     color: #696969;
  }
