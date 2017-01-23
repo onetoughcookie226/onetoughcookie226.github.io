@@ -1,10 +1,20 @@
+
+/*body {*/
+    /*background-img: lightblue;*/
+/*}*/
+.main-wrapper {
+    background-color: rgba(32, 36, 40, 0.91);
+    position: absolute;
+
+
+}
 .round-border {
     border-radius: 50%;
 }
 
-.main-header {
-    background-color: white;
-}
+/*.main-header {*/
+    /*background-color: white;*/
+/*}*/
 
 .img-responsive {
     margin: 0 auto;
@@ -21,13 +31,7 @@
 #alert {
     color: #FF6347;
 }
-.main-content {
-    background-color: #F0FFFF;
-}
 
-body {
-    background: #F5F5F5;
-}
 
 p {
     color: #696969;
