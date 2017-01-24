@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Onetoughcookie</title>
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
@@ -12,26 +16,30 @@
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="js/app.js"></script>
+
+
 </head>
 
 <body>
+<script>$(document).ready(function () {
+    $("h2").addClass("animated bounce");
+});
+</script>
+
     <div class="main-wrapper">
         <div class= "container-fluid">
             <div class="main-header">
-
                 <div><h2 class="title text-center">OneToughCookie<br><small></small></h2></div>
-
             </div>
-
             <nav class=" row navbar navbar-defult">
                 <div class="col-xs-12 container-fluid">
-                    <div class="navbar-header navbar-right">
-                        <a class="navbar-brand" href="index.html">Home</a>
-                    </div>
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#about">About me</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="mailto:onetoughcookie226@gmail.com">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -86,8 +94,19 @@
                     </div><!--End container-->
                 </footer><!--End footer 2-->
             </div>
+            <ul class="clicker">
+                <li>Thing 1</li>
+                <li>Thing 2</li>
+                <li>Thing 3</li>
+            </ul>
+
+
         </div>
+
     </div>
+
+
+
 
 </body>
 </html>
