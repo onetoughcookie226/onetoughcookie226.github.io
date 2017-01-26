@@ -3,11 +3,12 @@
     /*background-img: lightblue;*/
 /*}*/
 .main-wrapper {
-    background-color: rgba(32, 36, 40, 0.91);
+    /*background-color: rgba(32, 36, 40, 0.91);*/
+    background-color: white;
     position: absolute;
 
-
 }
+
 .round-border {
     border-radius: 50%;
 }
