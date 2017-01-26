@@ -2,6 +2,10 @@
 /*body {*/
     /*background-img: lightblue;*/
 /*}*/
+
+body { padding-top: 70px;
+}
+
 .main-wrapper {
     /*background-color: rgba(32, 36, 40, 0.91);*/
     background-color: white;
@@ -40,3 +44,8 @@ p {
  ul{
      color: #696969;
  }
+
+.footer > div > a {
+    font-size: 28px;
+    padding: 8px;
+}
