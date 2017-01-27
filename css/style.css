@@ -12,14 +12,21 @@ body { padding-top: 70px;
     /*position: absolute;*/
     /*padding-left: 20px;*/
     height: auto;
+    padding-top: 20px;
 }
 
 .content-wrapper {
     background-color: whitesmoke;
 }
+
 .portfolio-wrapper {
     background-color: white;
 
+}
+
+.third-wrapper {
+    background-color: #0e0e0e;
+    padding: 20px 5px 10px 5px;
 }
 
 .round-border {

@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/app.js"></script>
@@ -27,9 +30,11 @@
             </nav>
             <div class="header-wrapper">
                 <div class="row page-header">
-                    <h1 class="text-center">OneThoughCookie</h1>
-                    <h5>Web Developer</h5>
-                    <img src="css/img/cute-black-cat-waving-smiley-emoticon.gif" alt="cat" class="text-left img-responsive">
+                    <div class="col-xs-2"></div>
+                    <h1 class="col-xs-6">OneThoughCookie</h1>
+                    <div class="col-xs-4">
+                        <img src="css/img/cute-black-cat-waving-smiley-emoticon.gif" alt="cat" class="img-responsive">
+                    </div>
                 </div>
                 <div class="row main-content">
                     <div class="col-xs-12 text-center">&nbsp;
@@ -39,14 +44,15 @@
             </div>
             <div class="content-wrapper">
                 <div class="row primary-content">
-                    <div class="col-xs-12">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-10">
                         <h4 class="title" id="about">About me:</h4>
-                        <p>Hi, I am Bahareh Amali, creator of oneToughCookie, a cyber persona making her way to become a
+                        <p>Hi, I'm Bahareh Amali, creator of oneToughCookie, a cyber persona making her way to become a
                             self-taught web developer. On March 8th 2016, oneToughCookie came to existence and since then
                             she has been consistently learning, making new stuff, failing, and learning again. Thank you for
                             visiting my page.
                         </p>
-                        <p>I live in Amsterdam and since Dec 2015, I've been teaching myself web-development,(basics of
+                        <p>Currently living in Amsterdam and since Dec 2015, I've been teaching myself web-development,(basics of
                             <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Git</strong>, <strong>Github</strong>,
                             and webstorm) through online-courses and with help from my husband,
                             a DevOps engineer.
@@ -54,42 +60,34 @@
                         <p>If you'd like scroll down to see some of my work!
                         </p>
                     </div>
+                    <div class="col-xs-1"></div>
                 </div>
             </div>
-            <div class="portfolio-wrapper">
-                <div class= "secondary-content">
-                    <h4 class=" clicker title primary-text" id="portfolio">Portfolio</h4>
-                    <p>Here you will find some projects I've worked on! Click on the project to see a demo of it.</p>
+
+        <div class="portfolio-wrapper">
+            <div><p>Here you will find some projects I've worked on! Click on the project to see a demo of it.</p></div>
+            <div class= "secondary-content" id="accordion">
+                    <h4 class=" clicker title primary-text well">Tribute Page</h4>
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
                             <div class="thumbnail">
-                                <p></p>
                                 <img src="css/img/screenshot-tribute-page.png" alt="screenshot of Ivo Andric tribute page">
-                                <div class="caption">
-                                    <h4>Tribute Page</h4>
-                                    <p><a href="#" class="btn btn-default" role="button">View page</a></p>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <ul class="clicker">
-                        <li>Thing 1</li>
-                        <li>Thing 2</li>
-                        <li>Thing 3</li>
-                    </ul>
+                    <h4>Amazing Games</h4>
+                    <div><p>iagdahs</p></div>
                 </div>
             </div>
 
-
-
-                <div class="third-content">
+        <div class="third-wrapper">
                 <p class="lead">
                     Since Jan 2017, I've joined the #100DaysOfCode challenge. Along with hundreds of other code newbies I
                     commit myself to code for at least one hour a day for 100 consecutive days.
                     My goal is to transition into the vast field of web development and continue to learn all that I can in this extensive
                     and ever changing filed, and ultimately ... build things !!
                 </p>
-                </div>
+        </div>
 
             <p class="text-center">Click here to <a href="">contact me</a> for more info.</p>
             <div class="row" id="footer">
