@@ -6,10 +6,19 @@
 body { padding-top: 70px;
 }
 
-.main-wrapper {
+.header-wrapper {
     /*background-color: rgba(32, 36, 40, 0.91);*/
+    background-color: lightblue;
+    /*position: absolute;*/
+    /*padding-left: 20px;*/
+    height: auto;
+}
+
+.content-wrapper {
+    background-color: whitesmoke;
+}
+.portfolio-wrapper {
     background-color: white;
-    position: absolute;
 
 }
 
