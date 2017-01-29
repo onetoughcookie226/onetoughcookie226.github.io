@@ -1,18 +1,23 @@
 
-/*body {*/
-    /*background-img: lightblue;*/
-/*}*/
+/********/
 
 body { padding-top: 70px;
 }
 
 .header-wrapper {
     /*background-color: rgba(32, 36, 40, 0.91);*/
-    background-color: lightblue;
+    background-color: white;
     /*position: absolute;*/
     /*padding-left: 20px;*/
     height: auto;
     padding-top: 20px;
+}
+
+.thick-green-border {
+    border-color: 283519;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 50%;
 }
 
 .content-wrapper {
@@ -51,8 +56,8 @@ body { padding-top: 70px;
 
 #alert {
     color: #FF6347;
+    display: none;
 }
-
 
 p {
     color: #696969;
