@@ -49,22 +49,22 @@ body { padding-top: 70px;
     margin-bottom: 15px;
 }
 
-.title {
-    color: #696969;
-    padding:29px;
-}
+/*.title {*/
+    /*color: #696969;*/
+    /*padding:29px;*/
+/*}*/
 
 #alert {
     color: #FF6347;
     display: none;
 }
 
-p {
-    color: #696969;
-}
- ul{
-     color: #696969;
- }
+/*p {*/
+    /*color: #696969;*/
+/*}*/
+ /*ul{*/
+     /*color: #696969;*/
+ /*}*/
 
 .footer > div > a {
     font-size: 28px;
