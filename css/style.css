@@ -30,8 +30,9 @@ body { padding-top: 70px;
 }
 
 .third-wrapper {
-    background-color: #0e0e0e;
-    padding: 20px 5px 10px 5px;
+    background-color: #667554;
+    margin-top: 10px;
+    padding: 15px 5px 10px 5px;
 }
 
 .round-border {
@@ -42,6 +43,9 @@ body { padding-top: 70px;
     /*background-color: white;*/
 /*}*/
 
+h3 {
+    text-transform: capitalize;
+}
 .img-responsive {
     margin: 0 auto;
     height: 120px;
@@ -59,14 +63,12 @@ body { padding-top: 70px;
     display: none;
 }
 
-/*p {*/
-    /*color: #696969;*/
-/*}*/
- /*ul{*/
-     /*color: #696969;*/
- /*}*/
 
 .footer > div > a {
     font-size: 28px;
     padding: 8px;
+}
+
+a {
+    color: #283519;
 }
