@@ -1,12 +1,9 @@
 
 $(document).ready(function () {
 
-    $( function() {
         $( "#accordion" ).accordion({
             animate: 200
         });
-    } );
-
 
 
     // $('.cat-move').on('click', function() {
