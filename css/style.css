@@ -6,17 +6,26 @@ body { padding-top: 70px;
 
 .header-wrapper {
     /*background-color: rgba(32, 36, 40, 0.91);*/
-    background-color: black;
-    /*position: absolute;*/
+   background-color: #222222;
+
+    /*background-color: rgb(26, 0, 0);*/
     /*padding-left: 20px;*/
     height: auto;
     padding-top: 20px;
 }
 
 .page-header > div > h1 {
+    text-align: center;
     color: white;
     font-family: "Telefon Black",sans-serif;
     font-weight: 900;
+}
+
+.sub > p {
+    text-align: center;
+    color: white;
+    font-family: "Telefon Black",sans-serif;
+    font-weight: 100;
 }
 
 .thick-green-border {
@@ -33,6 +42,14 @@ body { padding-top: 70px;
 .portfolio-wrapper {
     background-color: white;
 
+}
+
+
+.portfolio-wrapper > h2 {
+    color: #888;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .third-wrapper {
