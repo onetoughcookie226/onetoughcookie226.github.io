@@ -17,13 +17,13 @@ body { padding-top: 70px;
 .page-header > div > h1 {
     text-align: center;
     color: white;
-    font-family: "Telefon Black",sans-serif;
+    font-family: Montserrat,sans-serif;
     font-weight: 900;
 }
 
 .sub > p {
     text-align: center;
-    color: white;
+    color: darkgray;
     font-family: "Telefon Black",sans-serif;
     font-weight: 100;
 }
@@ -36,14 +36,25 @@ body { padding-top: 70px;
 }
 
 .content-wrapper {
-    background-color: whitesmoke;
+    background-color: #343338;
+    color: darkgray;
 }
+
+.content-wrapper p {
+    font-family:  Montserrat;
+    font-weight: 100;
+}
+
+.aboutme {
+    padding:  45px 25px 60px 25px;
+    max-height: 1200px;
+
+}
+
 
 .portfolio-wrapper {
     background-color: white;
-
 }
-
 
 .portfolio-wrapper > h2 {
     color: #888;
@@ -53,9 +64,10 @@ body { padding-top: 70px;
 }
 
 .third-wrapper {
-    background-color: #667554;
+    background-color: #28282B;
     margin-top: 10px;
     padding: 15px 5px 10px 5px;
+    color:darkgray;
 }
 
 .round-border {
