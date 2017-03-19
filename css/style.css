@@ -1,13 +1,13 @@
-
 /********/
 
 body { padding-top: 70px;
+    background-color: black;
 }
 
 .header-wrapper {
     /*background-color: rgba(32, 36, 40, 0.91);*/
    background-color: #222222;
-
+    padding-bottom: -10px;
     /*background-color: rgb(26, 0, 0);*/
     /*padding-left: 20px;*/
     height: auto;
@@ -26,6 +26,18 @@ body { padding-top: 70px;
     color: darkgray;
     font-family: "Telefon Black",sans-serif;
     font-weight: 100;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+}
+a:visited {
+    color: darkgray;
+    outline: none !important;
 }
 
 .thick-green-border {
@@ -40,17 +52,15 @@ body { padding-top: 70px;
     color: darkgray;
 }
 
-.content-wrapper p {
-    font-family:  Montserrat;
-    font-weight: 100;
+.content-wrapper p, h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
-.aboutme {
+.about {
     padding:  45px 25px 60px 25px;
     max-height: 1200px;
-
 }
-
 
 .portfolio-wrapper {
     background-color: white;
@@ -58,9 +68,11 @@ body { padding-top: 70px;
 
 .portfolio-wrapper > h2 {
     color: #888;
+    font-family: Montserrat,sans-serif;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+
 }
 
 .third-wrapper {
