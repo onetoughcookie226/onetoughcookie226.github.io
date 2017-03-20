@@ -58,8 +58,9 @@ a:visited {
 }
 
 .content-wrapper p, h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Gidugu', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
 }
 
 .about {
