@@ -98,18 +98,32 @@ a:visited {
     color:darkgray;
 }
 
-.contact-wrapper {
+.contact-wrapper  h2 {
+    color: #888;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 35px 20px;
+}
+/*.contact-wrapper > p {*/
+    /*text-transform: uppercase;*/
+    /*color: #888;*/
+    /*font-family: Montserrat,sans-serif;*/
+/*}*/
+
+.footer-wrapper {
     background-color: #28282B;
     margin-top: 10px;
     padding: 15px 5px 20px 5px;
     color:darkgray;
 }
 
-.contact-wrapper > p {
+.footer-wrapper > p {
     text-transform: uppercase;
-    color: #888;
-    font-family: Montserrat,sans-serif;
 }
+
+
 
 .footer > div > a {
     font-size: 28px;
