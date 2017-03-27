@@ -98,6 +98,11 @@ a:visited {
     color:darkgray;
 }
 
+.contact-wrapper {
+    height: 350px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
 .contact-wrapper  h2 {
     color: #888;
     font-family: Montserrat,sans-serif;
@@ -106,11 +111,19 @@ a:visited {
     text-transform: uppercase;
     padding: 35px 20px;
 }
-/*.contact-wrapper > p {*/
-    /*text-transform: uppercase;*/
-    /*color: #888;*/
-    /*font-family: Montserrat,sans-serif;*/
-/*}*/
+
+.contact-wrapper p {
+    color: #888;
+}
+
+.form-control {
+    width: 90%;
+    background-color: #dddddd;
+}
+
+.message {
+    width: 90%;
+}
 
 .footer-wrapper {
     background-color: #28282B;
