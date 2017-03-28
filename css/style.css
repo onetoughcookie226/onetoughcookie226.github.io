@@ -9,7 +9,6 @@ body { padding-top: 70px;
    background-color: #222222;
     padding-bottom: -10px;
     /*background-color: rgb(26, 0, 0);*/
-    /*padding-left: 20px;*/
     height: auto;
     padding-top: 20px;
 }
@@ -17,7 +16,6 @@ body { padding-top: 70px;
 .page-header {
     border-bottom: none;
 }
-
 
 .page-header > div > h1 {
     text-align: center;
@@ -29,26 +27,16 @@ body { padding-top: 70px;
 .sub > p {
     text-align: center;
     color: darkgray;
-    font-family: "Telefon Black",sans-serif;
+    font-family: "Telefon Black", sans-serif;
     font-weight: 100;
-
 }
 
-a:active, a:focus {
-    outline: none;
+.img-responsive {
+    margin: 0 auto;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 15px;
 }
-
-a:link {
-    text-decoration: none;
-}
-a:hover {
-   text-decoration: underline;
-}
-a:visited {
-    color: darkgray;
-    outline: none !important;
-}
-
 .thick-green-border {
     border-color: 283519;
     border-width: 8px;
@@ -72,8 +60,10 @@ a:visited {
     max-height: 1200px;
 }
 
+/*Portfolio*******************/
 .portfolio-wrapper {
     background-color: #343338;
+    /*padding-top: 40px;*/
 }
 
 .portfolio-wrapper > h2 {
@@ -94,14 +84,15 @@ a:visited {
 .skills-wrapper {
 
     margin-top: 10px;
-    padding: 15px 5px 10px 5px;
+    padding: 15px 5px 25px 10px;
     color:darkgray;
 }
-
+/*Contact**************/
 .contact-wrapper {
     height: 350px;
-    margin-top: 10px;
+    margin-top: 2px;
     padding-top: 10px;
+    background-color: #343338;
 }
 .contact-wrapper  h2 {
     color: #888;
@@ -109,11 +100,15 @@ a:visited {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    padding: 35px 20px;
+    padding: 10px 25px;
 }
 
 .contact-wrapper p {
     color: #888;
+}
+
+.form-wrapper {
+    padding-top: 10px;
 }
 
 .form-control {
@@ -124,7 +119,7 @@ a:visited {
 .message {
     width: 90%;
 }
-
+/*Footer***************************/
 .footer-wrapper {
     background-color: #28282B;
     margin-top: 10px;
@@ -136,8 +131,7 @@ a:visited {
     text-transform: uppercase;
 }
 
-
-
+/*Footer***************************/
 .footer > div > a {
     font-size: 28px;
     padding: 8px;
@@ -157,12 +151,6 @@ a:visited {
     border-radius: 50%;
 }
 
-.img-responsive {
-    margin: 0 auto;
-    height: 120px;
-    width: 120px;
-    margin-bottom: 15px;
-}
 .fa:hover {
    color:lightgray;
 }
@@ -173,3 +161,18 @@ a:visited {
 }
 
 
+/*hyperlinks***************/
+a:active, a:focus {
+    outline: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: darkgray;
+    outline: none !important;
+}
