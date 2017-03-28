@@ -84,14 +84,15 @@ body { padding-top: 70px;
 .skills-wrapper {
 
     margin-top: 10px;
-    padding: 15px 5px 10px 5px;
+    padding: 15px 5px 25px 10px;
     color:darkgray;
 }
 /*Contact**************/
 .contact-wrapper {
     height: 350px;
     margin-top: 2px;
-    padding-top: 5px;
+    padding-top: 10px;
+    background-color: #343338;
 }
 .contact-wrapper  h2 {
     color: #888;
@@ -104,6 +105,10 @@ body { padding-top: 70px;
 
 .contact-wrapper p {
     color: #888;
+}
+
+.form-wrapper {
+    padding-top: 10px;
 }
 
 .form-control {
@@ -156,8 +161,6 @@ body { padding-top: 70px;
 }
 
 
-
-}
 /*hyperlinks***************/
 a:active, a:focus {
     outline: none;
