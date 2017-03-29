@@ -63,6 +63,7 @@ body { padding-top: 70px;
 /*Portfolio*******************/
 .portfolio-wrapper {
     background-color: #343338;
+    padding-bottom: 20px;
     /*padding-top: 40px;*/
 }
 
@@ -83,13 +84,14 @@ body { padding-top: 70px;
 
 .skills-wrapper {
     margin-top: 10px;
-    padding: 15px 5px 25px 10px;
+    margin-bottom: 5px;
+    padding: 15px 5px 20px 10px;
     color:darkgray;
 }
 /*Contact**************/
 .contact-wrapper {
     height: 350px;
-    margin-top: 2px;
+    margin-top: 24px;
     padding-top: 10px;
     background-color: #343338;
 }
@@ -129,7 +131,8 @@ body { padding-top: 70px;
 /*Footer***************************/
 .footer-wrapper {
     background-color: #28282B;
-    margin-top: 10px;
+    margin-top: 9px;
+    margin-bottom: 17px;
     padding: 15px 5px 20px 5px;
     color:darkgray;
 }
@@ -138,7 +141,7 @@ body { padding-top: 70px;
     text-transform: uppercase;
 }
 
-/*Footer***************************/
+
 .footer > div > a {
     font-size: 28px;
     padding: 8px;
