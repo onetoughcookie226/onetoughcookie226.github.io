@@ -90,7 +90,7 @@ body { padding-top: 70px;
 }
 /*Contact**************/
 .contact-wrapper {
-    height: 350px;
+    height: 420px;
     margin-top: 24px;
     padding-top: 10px;
     background-color: #343338;
@@ -116,6 +116,7 @@ body { padding-top: 70px;
 .form-control {
     width: 90%;
     background-color: #dddddd;
+    margin-left: 34px;
 }
 
 .message {
@@ -127,6 +128,7 @@ body { padding-top: 70px;
     color: #888;
     font-family: Montserrat,sans-serif;
     font-weight: bold;
+    margin-left: 34px;
 }
 /*Footer***************************/
 .footer-wrapper {
@@ -149,12 +151,6 @@ body { padding-top: 70px;
 
 #footer > .footer a {
     color: darkgray;
-}
-
-.fourth-wrapper {
-    background-color: black;
-    margin-top: 10px;
-    padding: 15px 5px 10px 5px;
 }
 
 .round-border {
