@@ -81,12 +81,33 @@ body { padding-top: 70px;
     margin-right: auto;
     padding: 20px;
 }
-
+/*Skills*/
 .skills-wrapper {
+    height: 420px;
     margin-top: 10px;
     margin-bottom: 5px;
     padding: 15px 5px 20px 10px;
-    color:darkgray;
+    background-color: #343338;
+}
+
+.skills-wrapper h2 {
+    color: #888;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 25px;
+
+}
+
+.skills-wrapper p {
+    color: #888;
+}
+
+.icons {
+    color: #888;
+    text-align: center;
+    padding-top: 97px;
 }
 /*Contact**************/
 .contact-wrapper {
