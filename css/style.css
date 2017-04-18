@@ -82,6 +82,13 @@ body { padding-top: 70px;
     padding: 20px;
 }
 /*Skills*/
+
+.col-centered{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .skills-wrapper {
     height: 420px;
     margin-top: 10px;
@@ -98,6 +105,11 @@ body { padding-top: 70px;
     text-transform: uppercase;
     padding: 10px 25px;
 
+}
+
+.card-title {
+    color: white;
+    text-align: center;
 }
 
 .skills-wrapper p {
@@ -130,15 +142,8 @@ body { padding-top: 70px;
     color: #888;
 }
 
-.form-wrapper {
-    padding-top: 10px;
-}
 
-.form-control {
-    width: 90%;
-    background-color: #dddddd;
-    margin-left: 34px;
-}
+
 
 .message {
     width: 90%;
