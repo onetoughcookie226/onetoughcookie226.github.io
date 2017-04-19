@@ -37,8 +37,9 @@ body { padding-top: 70px;
     width: 120px;
     margin-bottom: 15px;
 }
+
 .thick-green-border {
-    border-color: 283519;
+    border-color: #23381D;
     border-width: 8px;
     border-style: solid;
     border-radius: 50%;
@@ -46,13 +47,12 @@ body { padding-top: 70px;
 
 .content-wrapper {
     background-color: #343338;
-    color: darkgray;
+    color: #8C8B8D;
 }
 
 .content-wrapper p, h4 {
     font-family: 'Gidugu', sans-serif;
     font-weight: 100;
-    font-size: 14px;
 }
 
 .about {
@@ -60,7 +60,7 @@ body { padding-top: 70px;
     max-height: 1200px;
 }
 
-/*Portfolio*******************/
+/**********Portfolio***********/
 .portfolio-wrapper {
     background-color: #343338;
     padding-bottom: 20px;
@@ -68,7 +68,7 @@ body { padding-top: 70px;
 }
 
 .portfolio-wrapper > h2 {
-    color: #888;
+    color: #8C8B8D;
     font-family: Montserrat,sans-serif;
     font-weight: bold;
     text-align: center;
@@ -81,8 +81,8 @@ body { padding-top: 70px;
     margin-right: auto;
     padding: 20px;
 }
-/*Skills*/
 
+/************Skills************/
 .col-centered{
     float: none;
     margin-left: auto;
@@ -90,7 +90,6 @@ body { padding-top: 70px;
 }
 
 .skills-wrapper {
-    height: 420px;
     margin-top: 10px;
     margin-bottom: 5px;
     padding: 15px 5px 20px 10px;
@@ -98,30 +97,30 @@ body { padding-top: 70px;
 }
 
 .skills-wrapper h2 {
-    color: #888;
+    color: #8C8B8D;
     font-family: Montserrat,sans-serif;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     padding: 10px 25px;
-
 }
 
 .card-title {
-    color: white;
-    text-align: center;
+    color: #8C8B8D;
+    /*text-align: center;*/
 }
 
 .skills-wrapper p {
-    color: #888;
+    color: #8C8B8D;
 }
 
 .icons {
-    color: #888;
+    color: #8C8B8D;
     text-align: center;
-    padding-top: 97px;
+    padding-top: 37px;
 }
-/*Contact**************/
+
+/************Contact**************/
 .contact-wrapper {
     height: 420px;
     margin-top: 24px;
@@ -130,7 +129,7 @@ body { padding-top: 70px;
 }
 
 .contact-wrapper  h2 {
-    color: #888;
+    color: #8C8B8D;
     font-family: Montserrat,sans-serif;
     font-weight: bold;
     text-align: center;
@@ -139,11 +138,8 @@ body { padding-top: 70px;
 }
 
 .contact-wrapper p {
-    color: #888;
+    color: #8C8B8D;
 }
-
-
-
 
 .message {
     width: 90%;
@@ -151,12 +147,13 @@ body { padding-top: 70px;
 }
 
 .message > p {
-    color: #888;
+    color: #8C8B8D;
     font-family: Montserrat,sans-serif;
     font-weight: bold;
     margin-left: 34px;
 }
-/*Footer***************************/
+
+/************Footer*************/
 .footer-wrapper {
     background-color: #28282B;
     margin-top: 9px;
@@ -168,7 +165,6 @@ body { padding-top: 70px;
 .footer-wrapper > p {
     text-transform: uppercase;
 }
-
 
 .footer > div > a {
     font-size: 28px;
@@ -192,8 +188,7 @@ body { padding-top: 70px;
     display: none;
 }
 
-
-/*hyperlinks***************/
+/*************hyperlinks**********/
 a:active, a:focus {
     outline: none;
 }
