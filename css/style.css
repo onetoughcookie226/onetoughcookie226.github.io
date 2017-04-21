@@ -39,7 +39,7 @@ body { padding-top: 70px;
 }
 
 .thick-green-border {
-    border-color: black;
+    border-color: #1B1527;
     border-width: 5px;
     border-style: solid;
     border-radius: 50%;
@@ -118,6 +118,7 @@ body { padding-top: 70px;
 
 .icons {
     color: #8C8B8D;
+    /*color: white;*/
     text-align: center;
     padding-top: 25px;
 }
