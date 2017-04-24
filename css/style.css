@@ -105,7 +105,9 @@ body { padding-top: 70px;
     padding: 10px 25px;
 }
 
-
+.card-score {
+    display: block;
+}
 
 .card-title {
     color: #8C8B8D;
