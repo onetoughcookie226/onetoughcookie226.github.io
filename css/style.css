@@ -92,7 +92,7 @@ body { padding-top: 70px;
 .skills-wrapper {
     margin-top: 10px;
     margin-bottom: 5px;
-    padding: 15px 5px 30px 10px;
+    padding: 15px 5px 62px 10px;
     background-color: #343338;
 }
 
@@ -129,11 +129,19 @@ body { padding-top: 70px;
     content: "\f143";
 }
 
+.icon-javascript-alt {
+    padding-right: 52px;
+    margin-right: 49px;
+}
 
+.icon-jquery {
+    padding-right: 52px;
+    margin-right: 49px;
+}
 
 /************Contact**************/
 .contact-wrapper {
-    height: 420px;
+    height: 325px;
     margin-top: 20px;
     padding-top: 10px;
     background-color: #343338;
@@ -162,6 +170,14 @@ body { padding-top: 70px;
     font-family: 'Gidugu', sans-serif;
     font-weight: 100;
     /*margin-left: 34px;*/
+}
+
+.message-fun {
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+
 }
 /*************Scroll to top button******/
 #myBtn {
