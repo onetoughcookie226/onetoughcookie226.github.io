@@ -105,6 +105,12 @@ body { padding-top: 70px;
     padding: 10px 25px;
 }
 
+.card {
+    border: solid 2px #8C8B8D;
+    margin: 20px;
+    padding: 15px;
+}
+
 .card-score {
     display: block;
 }
