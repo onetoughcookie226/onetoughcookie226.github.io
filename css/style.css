@@ -109,6 +109,7 @@ body { padding-top: 70px;
     border: solid 2px #8C8B8D;
     margin: 20px;
     padding: 15px;
+    margin-left: 190px;
 }
 
 .card-score {
@@ -127,7 +128,7 @@ body { padding-top: 70px;
 .icons {
     color: #8C8B8D;
     /*color: white;*/
-    text-align: center;
+    /*text-align: center;*/
     padding-top: 25px;
 }
 
