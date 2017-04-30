@@ -1,5 +1,7 @@
 /********/
 
+
+
 body { padding-top: 70px;
     background-color: black;
 }
@@ -209,8 +211,8 @@ body { padding-top: 70px;
 .footer-wrapper {
     background-color: #28282B;
     margin-top: 9px;
-    margin-bottom: 17px;
-    padding: 15px 5px 20px 5px;
+    margin-bottom: 15px;
+    padding: 15px 5px 30px 5px;
     color:darkgray;
 }
 
@@ -255,3 +257,23 @@ a:visited {
     color: darkgray;
     outline: none !important;
 }
+
+
+/*----------MEDIA Queries_____________*/
+
+/*----------SMALL SCREEN------ */
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 30px;
+    }
+
+}
+
+/***** medium and large*******/
+@media only screen and (min-width : 1000px) and (max-width : 1580px){
+
+}
+
+
+/*@grid-float-breakpoint:*/
