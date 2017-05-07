@@ -148,7 +148,7 @@ body { padding-top: 70px;
 
 /************Contact**************/
 .contact-wrapper {
-    height: 325px;
+    /*height: 325px;*/
     margin-top: 20px;
     padding-top: 10px;
     background-color: #343338;
@@ -261,15 +261,14 @@ a:visited {
 
 /*----------SMALL SCREEN------ */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
     h1 {
         font-size: 30px;
     }
 
     p {
         font-size: 20px;
-        font-color: white;
-
+        color: white;
         }
 
 }
