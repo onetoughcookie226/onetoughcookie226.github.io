@@ -271,6 +271,11 @@ a:visited {
         color: white;
         }
 
+    .content-wrapper p {
+        color: white;
+        font-size: 25px;
+    }
+
 }
 
 /***** medium and large*******/
